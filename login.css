@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(31, 28, 33),rgb(13, 42, 57)) 
+}
+.image_container{
+    background-image: url("avimg5.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 60vw;
+    height: 90vh;
+    margin: 40px 0px;
+}
+.main_container{
+    color: #222525;
+    width: 25vw;
+    height: 90vh;
+    margin: 40px 0px;
+    background-color: white;
+    animation: change 5s infinite;
+}
+@keyframes change{
+    0%{
+        background-color: #CDB4DB;
+    }
+    25%{
+        background-color: #FFC8DD;
+    }
+    50%{
+        background-color: #FFAFCC;
+    }
+    75%{
+        background-color: #BDE0FE;
+    }
+    100%{
+        background-color: #A2D2FF;
+    }
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#heading1{
+    width: 200px;
+    height: 45px;
+    margin-top: 30px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #2a3242;
+    color: white;
+}
+#heading2{
+    margin-top: 75px;
+}
+#username{
+    margin-top: 40px;
+    width: 160px;
+    height: 45px;
+    border: none ;
+    border-bottom: 2px solid #2a3242;
+    text-indent: 5px;
+    /*animation: change 5s infinite;*/
+}
+/*@keyframes change{
+    0%{
+        background-color: #CDB4DB;
+    }
+    25%{
+        background-color: #FFC8DD;
+    }
+    50%{
+        background-color: #FFAFCC;
+    }
+    75%{
+        background-color: #BDE0FE;
+    }
+    100%{
+        background-color: #A2D2FF;
+    }
+    
+}*/
+#password{
+    width: 160px;
+    height: 45px;
+    border: none ;
+    border-bottom: 2px solid #2a3242;
+    text-indent: 5px;
+    /*animation: change 5s infinite;*/
+}
+/*@keyframes change{
+    0%{
+        background-color: #CDB4DB;
+    }
+    25%{
+        background-color: #FFC8DD;
+    }
+    50%{
+        background-color: #FFAFCC;
+    }
+    75%{
+        background-color: #BDE0FE;
+    }
+    100%{
+        background-color: #A2D2FF;
+    }*/
+.btn1{
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #2a3242;
+    color: white;
+}
+.btn1:hover{
+    background-color: #37b4de;
+}
+a{
+    color: #2a3242;
+}
+a:hover{
+    color: #173166;
+}
+.main_container,#password{
+    animation: change 5s infinite;
+}
+@keyframes change{
+    0%{
+        background-color: #CDB4DB;
+    }
+    25%{
+        background-color: #FFC8DD;
+    }
+    50%{
+        background-color: #FFAFCC;
+    }
+    75%{
+        background-color: #BDE0FE;
+    }
+    100%{
+        background-color: #A2D2FF;
+    }
+}
